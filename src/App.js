@@ -1,7 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { API } from "aws-amplify";
 
 function App() {
+  async function sayHello() {
+    try {
+      const items = await API.get("newsimageapi", "/info");
+      console.log(items);
+    } catch (err) {
+      console.log("error printing hello world", err);
+    }
+  }
+  sayHello();
+
   return (
     <div className="App">
       <header className="App-header">

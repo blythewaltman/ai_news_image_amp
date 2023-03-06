@@ -15,7 +15,7 @@
       "function": {
         "ainewsimagelambda": {
           "deploymentBucketName": "amplify-ainewsimageamp-dev-161059-deployment",
-          "s3Key": "amplify-builds/ainewsimagelambda-2b62746a696d624b6662-build.zip"
+          "s3Key": "amplify-builds/ainewsimagelambda-724a2b4e77696f416c46-build.zip"
         }
       },
       "api": {
